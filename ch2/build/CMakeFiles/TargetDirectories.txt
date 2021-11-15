@@ -1,0 +1,3 @@
+/home/xia/slambook2/ch2/build/CMakeFiles/rebuild_cache.dir
+/home/xia/slambook2/ch2/build/CMakeFiles/edit_cache.dir
+/home/xia/slambook2/ch2/build/CMakeFiles/test.dir
