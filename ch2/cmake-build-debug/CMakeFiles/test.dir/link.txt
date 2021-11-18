@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/test.dir/useHello.cpp.o  -o test   -L/home/xia/slambook2/ch2/build  -Wl,-rpath,/home/xia/slambook2/ch2/build libtestlib.a 
