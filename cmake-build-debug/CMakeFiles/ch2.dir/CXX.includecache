@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/xia/slambook2/ch2/libtest.cpp
+/home/book/SLAM_Learning/ch2/libtest.cpp
 iostream
 -
+
+/home/book/SLAM_Learning/ch2/test.h
+
+/home/book/SLAM_Learning/ch2/useHello.cpp
+iostream
+-
+test.h
+/home/book/SLAM_Learning/ch2/test.h
 

@@ -4,14 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xia/slambook2/ch2/libtest.cpp" "/home/xia/slambook2/cmake-build-debug/CMakeFiles/ch2.dir/ch2/libtest.cpp.o"
-  "/home/xia/slambook2/ch2/useHello.cpp" "/home/xia/slambook2/cmake-build-debug/CMakeFiles/ch2.dir/ch2/useHello.cpp.o"
+  "/home/book/SLAM_Learning/ch1/test.cpp" "/home/book/SLAM_Learning/cmake-build-debug/CMakeFiles/ch2.dir/ch1/test.cpp.o"
+  "/home/book/SLAM_Learning/ch2/libtest.cpp" "/home/book/SLAM_Learning/cmake-build-debug/CMakeFiles/ch2.dir/ch2/libtest.cpp.o"
+  "/home/book/SLAM_Learning/ch2/useHello.cpp" "/home/book/SLAM_Learning/cmake-build-debug/CMakeFiles/ch2.dir/ch2/useHello.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../."
+  "/usr/include/eigen3"
   "../ch2"
   "../ch3"
   )

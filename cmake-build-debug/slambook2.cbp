@@ -8,90 +8,92 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/xia/slambook2/cmake-build-debug"/>
+				<Option working_dir="/home/book/SLAM_Learning/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/xia/slambook2/cmake-build-debug"/>
+				<Option working_dir="/home/book/SLAM_Learning/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/xia/slambook2/cmake-build-debug"/>
+				<Option working_dir="/home/book/SLAM_Learning/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ch3">
-				<Option output="/home/xia/slambook2/cmake-build-debug/ch3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xia/slambook2/cmake-build-debug"/>
+				<Option output="/home/book/SLAM_Learning/cmake-build-debug/ch3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/book/SLAM_Learning/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/include/eigen3"/>
-					<Add directory="/home/xia/slambook2/ch2"/>
-					<Add directory="/home/xia/slambook2/ch3"/>
-					<Add directory="/usr/include/c++/10"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
-					<Add directory="/usr/include/c++/10/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/home/book/SLAM_Learning/ch2"/>
+					<Add directory="/home/book/SLAM_Learning/ch3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch3"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch3"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ch3/fast">
-				<Option output="/home/xia/slambook2/cmake-build-debug/ch3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xia/slambook2/cmake-build-debug"/>
+				<Option output="/home/book/SLAM_Learning/cmake-build-debug/ch3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/book/SLAM_Learning/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/include/eigen3"/>
-					<Add directory="/home/xia/slambook2/ch2"/>
-					<Add directory="/home/xia/slambook2/ch3"/>
-					<Add directory="/usr/include/c++/10"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
-					<Add directory="/usr/include/c++/10/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/home/book/SLAM_Learning/ch2"/>
+					<Add directory="/home/book/SLAM_Learning/ch3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch3/fast"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/xia/slambook2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch3/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/xia/slambook2/ch3/useGeometry/useGeometry.cpp">
+		<Unit filename="/home/book/SLAM_Learning/ch3/homework/homework_5_eigen.cpp">
 			<Option target="ch3"/>
 		</Unit>
-		<Unit filename="/home/xia/slambook2/CMakeLists.txt">
+		<Unit filename="/home/book/SLAM_Learning/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

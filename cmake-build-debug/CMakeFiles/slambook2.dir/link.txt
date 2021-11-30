@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/slambook2.dir/ch2/libtest.cpp.o CMakeFiles/slambook2.dir/ch2/useHello.cpp.o CMakeFiles/slambook2.dir/ch3/useEigen/eigenMatrix.cpp.o  -o slambook2 

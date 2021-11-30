@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/eigen3 -I/home/xia/slambook2/ch2 -I/home/xia/slambook2/ch3 
+CXX_INCLUDES = -I/usr/include/eigen3 -I/home/book/SLAM_Learning/ch2 -I/home/book/SLAM_Learning/ch3 
 

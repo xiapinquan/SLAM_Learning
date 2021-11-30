@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/xia/Clion/clion-2020.2.5/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/book/clion-2020.2.5/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/xia/Clion/clion-2020.2.5/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/book/clion-2020.2.5/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xia/slambook2
+CMAKE_SOURCE_DIR = /home/book/SLAM_Learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xia/slambook2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/book/SLAM_Learning/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ch2.dir/depend.make
@@ -79,43 +79,58 @@ include CMakeFiles/ch2.dir/flags.make
 
 CMakeFiles/ch2.dir/ch2/useHello.cpp.o: CMakeFiles/ch2.dir/flags.make
 CMakeFiles/ch2.dir/ch2/useHello.cpp.o: ../ch2/useHello.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xia/slambook2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ch2.dir/ch2/useHello.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch2.dir/ch2/useHello.cpp.o -c /home/xia/slambook2/ch2/useHello.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/book/SLAM_Learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ch2.dir/ch2/useHello.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch2.dir/ch2/useHello.cpp.o -c /home/book/SLAM_Learning/ch2/useHello.cpp
 
 CMakeFiles/ch2.dir/ch2/useHello.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch2.dir/ch2/useHello.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xia/slambook2/ch2/useHello.cpp > CMakeFiles/ch2.dir/ch2/useHello.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/book/SLAM_Learning/ch2/useHello.cpp > CMakeFiles/ch2.dir/ch2/useHello.cpp.i
 
 CMakeFiles/ch2.dir/ch2/useHello.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch2.dir/ch2/useHello.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xia/slambook2/ch2/useHello.cpp -o CMakeFiles/ch2.dir/ch2/useHello.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/book/SLAM_Learning/ch2/useHello.cpp -o CMakeFiles/ch2.dir/ch2/useHello.cpp.s
 
 CMakeFiles/ch2.dir/ch2/libtest.cpp.o: CMakeFiles/ch2.dir/flags.make
 CMakeFiles/ch2.dir/ch2/libtest.cpp.o: ../ch2/libtest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xia/slambook2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ch2.dir/ch2/libtest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch2.dir/ch2/libtest.cpp.o -c /home/xia/slambook2/ch2/libtest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/book/SLAM_Learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ch2.dir/ch2/libtest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch2.dir/ch2/libtest.cpp.o -c /home/book/SLAM_Learning/ch2/libtest.cpp
 
 CMakeFiles/ch2.dir/ch2/libtest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch2.dir/ch2/libtest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xia/slambook2/ch2/libtest.cpp > CMakeFiles/ch2.dir/ch2/libtest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/book/SLAM_Learning/ch2/libtest.cpp > CMakeFiles/ch2.dir/ch2/libtest.cpp.i
 
 CMakeFiles/ch2.dir/ch2/libtest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch2.dir/ch2/libtest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xia/slambook2/ch2/libtest.cpp -o CMakeFiles/ch2.dir/ch2/libtest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/book/SLAM_Learning/ch2/libtest.cpp -o CMakeFiles/ch2.dir/ch2/libtest.cpp.s
+
+CMakeFiles/ch2.dir/ch1/test.cpp.o: CMakeFiles/ch2.dir/flags.make
+CMakeFiles/ch2.dir/ch1/test.cpp.o: ../ch1/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/book/SLAM_Learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ch2.dir/ch1/test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch2.dir/ch1/test.cpp.o -c /home/book/SLAM_Learning/ch1/test.cpp
+
+CMakeFiles/ch2.dir/ch1/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch2.dir/ch1/test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/book/SLAM_Learning/ch1/test.cpp > CMakeFiles/ch2.dir/ch1/test.cpp.i
+
+CMakeFiles/ch2.dir/ch1/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch2.dir/ch1/test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/book/SLAM_Learning/ch1/test.cpp -o CMakeFiles/ch2.dir/ch1/test.cpp.s
 
 # Object files for target ch2
 ch2_OBJECTS = \
 "CMakeFiles/ch2.dir/ch2/useHello.cpp.o" \
-"CMakeFiles/ch2.dir/ch2/libtest.cpp.o"
+"CMakeFiles/ch2.dir/ch2/libtest.cpp.o" \
+"CMakeFiles/ch2.dir/ch1/test.cpp.o"
 
 # External object files for target ch2
 ch2_EXTERNAL_OBJECTS =
 
 ch2: CMakeFiles/ch2.dir/ch2/useHello.cpp.o
 ch2: CMakeFiles/ch2.dir/ch2/libtest.cpp.o
+ch2: CMakeFiles/ch2.dir/ch1/test.cpp.o
 ch2: CMakeFiles/ch2.dir/build.make
 ch2: CMakeFiles/ch2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xia/slambook2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ch2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/book/SLAM_Learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ch2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ch2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +143,6 @@ CMakeFiles/ch2.dir/clean:
 .PHONY : CMakeFiles/ch2.dir/clean
 
 CMakeFiles/ch2.dir/depend:
-	cd /home/xia/slambook2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xia/slambook2 /home/xia/slambook2 /home/xia/slambook2/cmake-build-debug /home/xia/slambook2/cmake-build-debug /home/xia/slambook2/cmake-build-debug/CMakeFiles/ch2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/book/SLAM_Learning/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/book/SLAM_Learning /home/book/SLAM_Learning /home/book/SLAM_Learning/cmake-build-debug /home/book/SLAM_Learning/cmake-build-debug /home/book/SLAM_Learning/cmake-build-debug/CMakeFiles/ch2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ch2.dir/depend
 

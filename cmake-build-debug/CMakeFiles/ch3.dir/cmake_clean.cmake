@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ch3.dir/ch3/useGeometry/useGeometry.cpp.o"
+  "CMakeFiles/ch3.dir/ch3/homework/homework_5_eigen.cpp.o"
   "ch3"
   "ch3.pdb"
 )

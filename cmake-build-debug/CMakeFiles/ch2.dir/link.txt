@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/ch2.dir/ch2/useHello.cpp.o CMakeFiles/ch2.dir/ch2/libtest.cpp.o  -o ch2 
+/usr/bin/c++  -g   CMakeFiles/ch2.dir/ch2/useHello.cpp.o CMakeFiles/ch2.dir/ch2/libtest.cpp.o CMakeFiles/ch2.dir/ch1/test.cpp.o  -o ch2 
