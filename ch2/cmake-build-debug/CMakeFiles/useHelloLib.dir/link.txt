@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/useHelloLib.dir/useHello.cpp.o  -o useHelloLib  -Wl,-rpath,/home/book/SLAM_Learning/ch2/build ../build/liblib.so 

@@ -1,4 +1,1 @@
-/home/book/clion-2020.2.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/book/SLAM_Learning
--- Configuring done
--- Generating done
--- Build files have been written to: /home/book/SLAM_Learning/cmake-build-debug
+CMakeLists.txt not found in /home/book/SLAM_Learning Select CMakeLists.txt file...

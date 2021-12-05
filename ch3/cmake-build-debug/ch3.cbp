@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ch3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/book/SLAM_Learning/ch3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/book/SLAM_Learning/ch3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/book/SLAM_Learning/ch3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eigenMatrix">
+				<Option output="/home/book/SLAM_Learning/ch3/cmake-build-debug/eigenMatrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/book/SLAM_Learning/ch3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 eigenMatrix"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eigenMatrix/fast">
+				<Option output="/home/book/SLAM_Learning/ch3/cmake-build-debug/eigenMatrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/book/SLAM_Learning/ch3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 eigenMatrix/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="useGeometry">
+				<Option output="/home/book/SLAM_Learning/ch3/cmake-build-debug/useGeometry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/book/SLAM_Learning/ch3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 useGeometry"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="useGeometry/fast">
+				<Option output="/home/book/SLAM_Learning/ch3/cmake-build-debug/useGeometry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/book/SLAM_Learning/ch3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 useGeometry/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coordinateTransform">
+				<Option output="/home/book/SLAM_Learning/ch3/cmake-build-debug/coordinateTransform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/book/SLAM_Learning/ch3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 coordinateTransform"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coordinateTransform/fast">
+				<Option output="/home/book/SLAM_Learning/ch3/cmake-build-debug/coordinateTransform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/book/SLAM_Learning/ch3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 coordinateTransform/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="homework">
+				<Option output="/home/book/SLAM_Learning/ch3/cmake-build-debug/homework" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/book/SLAM_Learning/ch3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 homework"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="homework/fast">
+				<Option output="/home/book/SLAM_Learning/ch3/cmake-build-debug/homework" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/book/SLAM_Learning/ch3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 homework/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/book/SLAM_Learning/ch3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/book/SLAM_Learning/ch3/examples/coordinateTransform.cpp">
+			<Option target="coordinateTransform"/>
+		</Unit>
+		<Unit filename="/home/book/SLAM_Learning/ch3/homework/homework_5_eigen.cpp">
+			<Option target="homework"/>
+		</Unit>
+		<Unit filename="/home/book/SLAM_Learning/ch3/useEigen/eigenMatrix.cpp">
+			<Option target="eigenMatrix"/>
+		</Unit>
+		<Unit filename="/home/book/SLAM_Learning/ch3/useGeometry/useGeometry.cpp">
+			<Option target="useGeometry"/>
+		</Unit>
+		<Unit filename="/home/book/SLAM_Learning/ch3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

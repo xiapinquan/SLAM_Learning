@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/useSophus.dir/useSophus.cpp.o  -o useSophus 
