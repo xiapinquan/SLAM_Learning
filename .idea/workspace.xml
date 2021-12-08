@@ -20,8 +20,10 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ch4" targetName="trajectoryError" />
-      <config projectName="ch4" targetName="useSophus" />
+      <config projectName="ch5" targetName="stereoVision" />
+      <config projectName="ch5" targetName="undistortImage" />
+      <config projectName="ch5" targetName="imageBasics" />
+      <config projectName="ch5" targetName="jointMap" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -34,63 +36,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/3.18.4/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/3.18.4/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/3.18.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/3.18.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/3.18.4/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/3.18.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/3.18.4/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/3.18.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/3.18.4/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/build/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/helloSLAM.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/helloSLAM.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/helloSLAM.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/helloSLAM.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/helloSLAM.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/helloSLAM.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/helloSLAM.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/helloSLAM.dir/helloSLAM.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/helloSLAM.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/helloSLAM.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/build/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/test.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/test.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/test.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/test.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/test.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/test.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/test.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/test.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/test.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/test.dir/useHello.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/testlib.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/testlib.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/testlib.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/testlib.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/testlib.dir/cmake_clean_target.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/testlib.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/testlib.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/testlib.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/testlib.dir/libtest.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/testlib.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/CMakeFiles/testlib.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/build/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/libtestlib.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/libtestlib.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch4/test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ch4/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4/example/trajectoryError.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ch4/example/trajectoryError.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,25 +63,34 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch4/example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch5/rgbd" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch5/rgbd" />
+      <recent name="$PROJECT_DIR$/ch5/stereoVision" />
+      <recent name="$PROJECT_DIR$/ch5/imageBasics" />
+      <recent name="$PROJECT_DIR$/ch5" />
       <recent name="$PROJECT_DIR$/ch4/example" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.trajectoryError">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.jointMap">
+    <configuration name="imageBasics" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../imageBasics/ubuntu.png" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch5" TARGET_NAME="imageBasics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch5" RUN_TARGET_NAME="imageBasics">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="trajectoryError" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch4" TARGET_NAME="trajectoryError" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch4" RUN_TARGET_NAME="trajectoryError">
+    <configuration name="jointMap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch5" TARGET_NAME="jointMap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch5" RUN_TARGET_NAME="jointMap">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="useSophus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch4" TARGET_NAME="useSophus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch4" RUN_TARGET_NAME="useSophus">
+    <configuration name="stereoVision" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch5" TARGET_NAME="stereoVision" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch5" RUN_TARGET_NAME="stereoVision">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="undistortImage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch5" TARGET_NAME="undistortImage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch5" RUN_TARGET_NAME="undistortImage">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -145,8 +101,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.trajectoryError" />
-      <item itemvalue="CMake Application.useSophus" />
+      <item itemvalue="CMake Application.imageBasics" />
+      <item itemvalue="CMake Application.jointMap" />
+      <item itemvalue="CMake Application.stereoVision" />
+      <item itemvalue="CMake Application.undistortImage" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -168,7 +126,10 @@
       <workItem from="1637674547206" duration="17000" />
       <workItem from="1637735024376" duration="2832000" />
       <workItem from="1637808443365" duration="4345000" />
-      <workItem from="1638262985911" duration="13427000" />
+      <workItem from="1638262985911" duration="14172000" />
+      <workItem from="1638773931469" duration="17825000" />
+      <workItem from="1638851078174" duration="11599000" />
+      <workItem from="1638931976998" duration="5800000" />
     </task>
     <servers />
   </component>
@@ -185,16 +146,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="290" width="835" height="470" key="#Notifications" timestamp="1637285946201">
       <screen x="74" y="30" width="1606" height="1020" />
     </state>
     <state x="458" y="290" width="835" height="470" key="#Notifications/74.30.1606.1020@74.30.1606.1020" timestamp="1637285946201" />
-    <state x="435" y="105" width="1483" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1638246556653">
+    <state x="435" y="146" width="1483" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1638792440800">
       <screen x="74" y="30" width="1844" height="906" />
     </state>
-    <state x="435" y="105" width="1483" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/74.30.1844.906@74.30.1844.906" timestamp="1638246556653" />
+    <state x="435" y="146" width="1483" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/74.30.1844.906@74.30.1844.906" timestamp="1638792440800" />
     <state x="541" y="363" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1637242519331">
       <screen x="96" y="30" width="1584" height="1020" />
     </state>
@@ -205,26 +167,26 @@
     <state x="455" y="203" key="FileChooserDialogImpl/74.30.1606.1020@74.30.1606.1020" timestamp="1637565795057" />
     <state x="511" y="184" key="FileChooserDialogImpl/74.30.1844.906@74.30.1844.906" timestamp="1638246555747" />
     <state x="472" y="203" key="FileChooserDialogImpl/96.30.1584.1020@96.30.1584.1020" timestamp="1637242515967" />
-    <state width="1780" height="3" key="GridCell.Tab.0.bottom" timestamp="1638410911893">
-      <screen x="74" y="30" width="1844" height="906" />
+    <state width="1542" height="188" key="GridCell.Tab.0.bottom" timestamp="1638943937575">
+      <screen x="74" y="30" width="1606" height="1020" />
     </state>
-    <state width="1542" height="235" key="GridCell.Tab.0.bottom/74.30.1606.1020@74.30.1606.1020" timestamp="1637809457975" />
-    <state width="1780" height="3" key="GridCell.Tab.0.bottom/74.30.1844.906@74.30.1844.906" timestamp="1638410911893" />
-    <state width="1780" height="3" key="GridCell.Tab.0.center" timestamp="1638410911891">
-      <screen x="74" y="30" width="1844" height="906" />
+    <state width="1542" height="188" key="GridCell.Tab.0.bottom/74.30.1606.1020@74.30.1606.1020" timestamp="1638943937575" />
+    <state width="1780" height="154" key="GridCell.Tab.0.bottom/74.30.1844.906@74.30.1844.906" timestamp="1638848103090" />
+    <state width="1542" height="188" key="GridCell.Tab.0.center" timestamp="1638943937571">
+      <screen x="74" y="30" width="1606" height="1020" />
     </state>
-    <state width="1542" height="235" key="GridCell.Tab.0.center/74.30.1606.1020@74.30.1606.1020" timestamp="1637809457969" />
-    <state width="1780" height="3" key="GridCell.Tab.0.center/74.30.1844.906@74.30.1844.906" timestamp="1638410911891" />
-    <state width="1780" height="3" key="GridCell.Tab.0.left" timestamp="1638410911890">
-      <screen x="74" y="30" width="1844" height="906" />
+    <state width="1542" height="188" key="GridCell.Tab.0.center/74.30.1606.1020@74.30.1606.1020" timestamp="1638943937571" />
+    <state width="1780" height="154" key="GridCell.Tab.0.center/74.30.1844.906@74.30.1844.906" timestamp="1638848103088" />
+    <state width="1542" height="188" key="GridCell.Tab.0.left" timestamp="1638943937569">
+      <screen x="74" y="30" width="1606" height="1020" />
     </state>
-    <state width="1542" height="235" key="GridCell.Tab.0.left/74.30.1606.1020@74.30.1606.1020" timestamp="1637809457969" />
-    <state width="1780" height="3" key="GridCell.Tab.0.left/74.30.1844.906@74.30.1844.906" timestamp="1638410911890" />
-    <state width="1780" height="3" key="GridCell.Tab.0.right" timestamp="1638410911892">
-      <screen x="74" y="30" width="1844" height="906" />
+    <state width="1542" height="188" key="GridCell.Tab.0.left/74.30.1606.1020@74.30.1606.1020" timestamp="1638943937569" />
+    <state width="1780" height="154" key="GridCell.Tab.0.left/74.30.1844.906@74.30.1844.906" timestamp="1638848103087" />
+    <state width="1542" height="188" key="GridCell.Tab.0.right" timestamp="1638943937573">
+      <screen x="74" y="30" width="1606" height="1020" />
     </state>
-    <state width="1542" height="235" key="GridCell.Tab.0.right/74.30.1606.1020@74.30.1606.1020" timestamp="1637809457970" />
-    <state width="1780" height="3" key="GridCell.Tab.0.right/74.30.1844.906@74.30.1844.906" timestamp="1638410911892" />
+    <state width="1542" height="188" key="GridCell.Tab.0.right/74.30.1606.1020@74.30.1606.1020" timestamp="1638943937573" />
+    <state width="1780" height="154" key="GridCell.Tab.0.right/74.30.1844.906@74.30.1844.906" timestamp="1638848103090" />
     <state width="1780" height="276" key="GridCell.Tab.1.bottom" timestamp="1638267978422">
       <screen x="74" y="30" width="1844" height="906" />
     </state>
@@ -245,5 +207,16 @@
       <screen x="74" y="30" width="1844" height="906" />
     </state>
     <state x="639" y="360" width="712" height="217" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/74.30.1844.906@74.30.1844.906" timestamp="1638263065736" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ch3/useEigen/eigenMatrix.cpp</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

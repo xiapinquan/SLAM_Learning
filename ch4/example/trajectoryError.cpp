@@ -82,7 +82,7 @@ void drawTrajectory(TrajectoryType trajectory_real,TrajectoryType trajectory_est
         // 画出连线
         for (size_t i = 0; i < trajectory_real.size(); i++) {
             glColor3f(1.0, 0.0, 0.0);
-            glBegin(GL_LINES);
+            glBegin(GL_LINES);g
             auto p1 = trajectory_real[i], p2 = trajectory_real[i + 1];
             glVertex3d(p1.translation()[0], p1.translation()[1], p1.translation()[2]);
             glVertex3d(p2.translation()[0], p2.translation()[1], p2.translation()[2]);
