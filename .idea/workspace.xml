@@ -33,11 +33,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7438675b-caea-45a9-9a85-587b180d36da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch4/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ch4/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch4/example/trajectoryError.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ch4/example/trajectoryError.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5/rgbd/jointMap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ch5/rgbd/jointMap.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +126,7 @@
       <workItem from="1638262985911" duration="14172000" />
       <workItem from="1638773931469" duration="17825000" />
       <workItem from="1638851078174" duration="11599000" />
-      <workItem from="1638931976998" duration="5800000" />
+      <workItem from="1638931976998" duration="6714000" />
     </task>
     <servers />
   </component>

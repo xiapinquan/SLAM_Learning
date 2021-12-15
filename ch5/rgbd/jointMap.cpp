@@ -86,7 +86,6 @@ int main(int argc,char ** argv){
                 //提取相机坐标系坐标
                 d = depth.at<unsigned short>(v,u);  //depth.ptr<unsigned short>(v)[u];
                 if(d == 0){
-                    //cout<<"111"<<endl;
                     continue;
                 }
                 double dd= double(d)/depthScale;
