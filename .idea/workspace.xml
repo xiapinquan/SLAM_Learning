@@ -20,10 +20,9 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ch5" targetName="stereoVision" />
-      <config projectName="ch5" targetName="undistortImage" />
-      <config projectName="ch5" targetName="imageBasics" />
-      <config projectName="ch5" targetName="jointMap" />
+      <config projectName="ch6" targetName="g2oCurveFitting" />
+      <config projectName="ch6" targetName="ceresCurveFitting" />
+      <config projectName="ch6" targetName="gaussNeuton" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -33,8 +32,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7438675b-caea-45a9-9a85-587b180d36da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch5/rgbd/jointMap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ch5/rgbd/jointMap.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -60,34 +67,40 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch5/rgbd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch6" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch6" />
       <recent name="$PROJECT_DIR$/ch5/rgbd" />
       <recent name="$PROJECT_DIR$/ch5/stereoVision" />
       <recent name="$PROJECT_DIR$/ch5/imageBasics" />
       <recent name="$PROJECT_DIR$/ch5" />
-      <recent name="$PROJECT_DIR$/ch4/example" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.jointMap">
-    <configuration name="imageBasics" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../imageBasics/ubuntu.png" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch5" TARGET_NAME="imageBasics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch5" RUN_TARGET_NAME="imageBasics">
+  <component name="RunManager" selected="CMake Application.g2oCurveFitting">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ceresCurveFitting" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch6" TARGET_NAME="ceresCurveFitting" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch6" RUN_TARGET_NAME="ceresCurveFitting">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jointMap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch5" TARGET_NAME="jointMap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch5" RUN_TARGET_NAME="jointMap">
+    <configuration name="g2oCurveFitting" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch6" TARGET_NAME="g2oCurveFitting" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch6" RUN_TARGET_NAME="g2oCurveFitting">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stereoVision" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch5" TARGET_NAME="stereoVision" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch5" RUN_TARGET_NAME="stereoVision">
+    <configuration name="gaussNeuton" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch6" TARGET_NAME="gaussNeuton" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch6" RUN_TARGET_NAME="gaussNeuton">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="undistortImage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch5" TARGET_NAME="undistortImage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch5" RUN_TARGET_NAME="undistortImage">
+    <configuration name="imageBasics" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../imageBasics/ubuntu.png" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch6" TARGET_NAME="imageBasics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch6" RUN_TARGET_NAME="imageBasics">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -99,9 +112,9 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.imageBasics" />
-      <item itemvalue="CMake Application.jointMap" />
-      <item itemvalue="CMake Application.stereoVision" />
-      <item itemvalue="CMake Application.undistortImage" />
+      <item itemvalue="CMake Application.ceresCurveFitting" />
+      <item itemvalue="CMake Application.g2oCurveFitting" />
+      <item itemvalue="CMake Application.gaussNeuton" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -126,7 +139,11 @@
       <workItem from="1638262985911" duration="14172000" />
       <workItem from="1638773931469" duration="17825000" />
       <workItem from="1638851078174" duration="11599000" />
-      <workItem from="1638931976998" duration="6714000" />
+      <workItem from="1638931976998" duration="15272000" />
+      <workItem from="1639918330644" duration="4542000" />
+      <workItem from="1640000969067" duration="1949000" />
+      <workItem from="1640004385659" duration="9548000" />
+      <workItem from="1640073607990" duration="1590000" />
     </task>
     <servers />
   </component>
@@ -158,31 +175,35 @@
       <screen x="96" y="30" width="1584" height="1020" />
     </state>
     <state x="541" y="363" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/96.30.1584.1020@96.30.1584.1020" timestamp="1637242519331" />
+    <state x="583" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1640053708886">
+      <screen x="74" y="30" width="1606" height="1020" />
+    </state>
+    <state x="583" y="136" key="#com.intellij.ide.util.MemberChooser/74.30.1606.1020@74.30.1606.1020" timestamp="1640053708886" />
     <state x="511" y="184" key="FileChooserDialogImpl" timestamp="1638246555747">
       <screen x="74" y="30" width="1844" height="906" />
     </state>
     <state x="455" y="203" key="FileChooserDialogImpl/74.30.1606.1020@74.30.1606.1020" timestamp="1637565795057" />
     <state x="511" y="184" key="FileChooserDialogImpl/74.30.1844.906@74.30.1844.906" timestamp="1638246555747" />
     <state x="472" y="203" key="FileChooserDialogImpl/96.30.1584.1020@96.30.1584.1020" timestamp="1637242515967" />
-    <state width="1542" height="188" key="GridCell.Tab.0.bottom" timestamp="1638943937575">
+    <state width="1542" height="210" key="GridCell.Tab.0.bottom" timestamp="1640075365386">
       <screen x="74" y="30" width="1606" height="1020" />
     </state>
-    <state width="1542" height="188" key="GridCell.Tab.0.bottom/74.30.1606.1020@74.30.1606.1020" timestamp="1638943937575" />
+    <state width="1542" height="210" key="GridCell.Tab.0.bottom/74.30.1606.1020@74.30.1606.1020" timestamp="1640075365386" />
     <state width="1780" height="154" key="GridCell.Tab.0.bottom/74.30.1844.906@74.30.1844.906" timestamp="1638848103090" />
-    <state width="1542" height="188" key="GridCell.Tab.0.center" timestamp="1638943937571">
+    <state width="1542" height="210" key="GridCell.Tab.0.center" timestamp="1640075365383">
       <screen x="74" y="30" width="1606" height="1020" />
     </state>
-    <state width="1542" height="188" key="GridCell.Tab.0.center/74.30.1606.1020@74.30.1606.1020" timestamp="1638943937571" />
+    <state width="1542" height="210" key="GridCell.Tab.0.center/74.30.1606.1020@74.30.1606.1020" timestamp="1640075365383" />
     <state width="1780" height="154" key="GridCell.Tab.0.center/74.30.1844.906@74.30.1844.906" timestamp="1638848103088" />
-    <state width="1542" height="188" key="GridCell.Tab.0.left" timestamp="1638943937569">
+    <state width="1542" height="210" key="GridCell.Tab.0.left" timestamp="1640075365379">
       <screen x="74" y="30" width="1606" height="1020" />
     </state>
-    <state width="1542" height="188" key="GridCell.Tab.0.left/74.30.1606.1020@74.30.1606.1020" timestamp="1638943937569" />
+    <state width="1542" height="210" key="GridCell.Tab.0.left/74.30.1606.1020@74.30.1606.1020" timestamp="1640075365379" />
     <state width="1780" height="154" key="GridCell.Tab.0.left/74.30.1844.906@74.30.1844.906" timestamp="1638848103087" />
-    <state width="1542" height="188" key="GridCell.Tab.0.right" timestamp="1638943937573">
+    <state width="1542" height="210" key="GridCell.Tab.0.right" timestamp="1640075365384">
       <screen x="74" y="30" width="1606" height="1020" />
     </state>
-    <state width="1542" height="188" key="GridCell.Tab.0.right/74.30.1606.1020@74.30.1606.1020" timestamp="1638943937573" />
+    <state width="1542" height="210" key="GridCell.Tab.0.right/74.30.1606.1020@74.30.1606.1020" timestamp="1640075365384" />
     <state width="1780" height="154" key="GridCell.Tab.0.right/74.30.1844.906@74.30.1844.906" timestamp="1638848103090" />
     <state width="1780" height="276" key="GridCell.Tab.1.bottom" timestamp="1638267978422">
       <screen x="74" y="30" width="1844" height="906" />
@@ -200,6 +221,14 @@
       <screen x="74" y="30" width="1844" height="906" />
     </state>
     <state width="1780" height="276" key="GridCell.Tab.1.right/74.30.1844.906@74.30.1844.906" timestamp="1638267978422" />
+    <state x="284" y="67" key="SettingsEditor" timestamp="1640006372858">
+      <screen x="74" y="30" width="1606" height="1020" />
+    </state>
+    <state x="284" y="67" key="SettingsEditor/74.30.1606.1020@74.30.1606.1020" timestamp="1640006372858" />
+    <state x="412" y="30" width="928" height="1034" key="search.everywhere.popup" timestamp="1640053487057">
+      <screen x="74" y="30" width="1606" height="1020" />
+    </state>
+    <state x="412" y="30" width="928" height="1034" key="search.everywhere.popup/74.30.1606.1020@74.30.1606.1020" timestamp="1640053487057" />
     <state x="639" y="360" width="712" height="217" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1638263065736">
       <screen x="74" y="30" width="1844" height="906" />
     </state>
