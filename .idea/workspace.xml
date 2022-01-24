@@ -20,17 +20,13 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ch7" targetName="orb_self" />
-      <config projectName="ch7" targetName="pose_estimation_3d2d" />
-      <config projectName="ch7" targetName="pose_estimation_3d3d" />
-      <config projectName="ch7" targetName="triangulation" />
-      <config projectName="ch7" targetName="orb_cv" />
-      <config projectName="ch7" targetName="pose_estimation_2d2d" />
+      <config projectName="pose_graph" targetName="pose_graph_g2o_SE3" />
+      <config projectName="pose_graph" targetName="pose_graph_g2o_lie" />
     </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" BUILD_OPTIONS="-j 2" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" BUILD_OPTIONS="-j 4" />
     </configurations>
   </component>
   <component name="ChangeListManager">
@@ -38,7 +34,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch1/vector_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ch1/vector_test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch10" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
@@ -79,45 +75,50 @@
       <recent name="$PROJECT_DIR$/ch7" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch10" />
+      <recent name="$PROJECT_DIR$/ch8" />
       <recent name="$PROJECT_DIR$/ch7" />
       <recent name="$PROJECT_DIR$/ch6" />
       <recent name="$PROJECT_DIR$/ch5/rgbd" />
-      <recent name="$PROJECT_DIR$/ch5/stereoVision" />
-      <recent name="$PROJECT_DIR$/ch5/imageBasics" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.pose_estimation_3d3d">
-    <configuration name="imageBasics" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../imageBasics/ubuntu.png" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch7" TARGET_NAME="imageBasics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch7" RUN_TARGET_NAME="imageBasics">
+  <component name="RunManager" selected="CMake Application.pose_graph_g2o_lie">
+    <configuration name="imageBasics" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../imageBasics/ubuntu.png" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pose_graph" TARGET_NAME="imageBasics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pose_graph" RUN_TARGET_NAME="imageBasics">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="orb_cv" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../1.png ../2.png" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch7" TARGET_NAME="orb_cv" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch7" RUN_TARGET_NAME="orb_cv">
+    <configuration name="orb_cv" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../1.png ../2.png" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pose_graph" TARGET_NAME="orb_cv" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pose_graph" RUN_TARGET_NAME="orb_cv">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="orb_self" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch7" TARGET_NAME="orb_self" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch7" RUN_TARGET_NAME="orb_self">
+    <configuration name="pose_estimation_2d2d" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../1.png ../2.png" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pose_graph" TARGET_NAME="pose_estimation_2d2d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pose_graph" RUN_TARGET_NAME="pose_estimation_2d2d">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pose_estimation_2d2d" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../1.png ../2.png" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch7" TARGET_NAME="pose_estimation_2d2d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch7" RUN_TARGET_NAME="pose_estimation_2d2d">
+    <configuration name="pose_estimation_3d2d" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../1.png ../2.png ../1_depth.png ../2_depth.png" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pose_graph" TARGET_NAME="pose_estimation_3d2d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pose_graph" RUN_TARGET_NAME="pose_estimation_3d2d">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pose_estimation_3d2d" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../1.png ../2.png ../1_depth.png ../2_depth.png" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch7" TARGET_NAME="pose_estimation_3d2d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch7" RUN_TARGET_NAME="pose_estimation_3d2d">
+    <configuration name="pose_estimation_3d3d" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../1.png ../2.png ../1_depth.png ../2_depth.png" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pose_graph" TARGET_NAME="pose_estimation_3d3d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pose_graph" RUN_TARGET_NAME="pose_estimation_3d3d">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pose_estimation_3d3d" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../1.png ../2.png ../1_depth.png ../2_depth.png" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch7" TARGET_NAME="pose_estimation_3d3d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch7" RUN_TARGET_NAME="pose_estimation_3d3d">
+    <configuration name="pose_graph_g2o_SE3" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../sphere.g2o" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pose_graph" TARGET_NAME="pose_graph_g2o_SE3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pose_graph" RUN_TARGET_NAME="pose_graph_g2o_SE3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="triangulation" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../1.png ../2.png" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ch7" TARGET_NAME="triangulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ch7" RUN_TARGET_NAME="triangulation">
+    <configuration name="pose_graph_g2o_lie" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../sphere.g2o" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pose_graph" TARGET_NAME="pose_graph_g2o_lie" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pose_graph" RUN_TARGET_NAME="pose_graph_g2o_lie">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="triangulation" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../1.png ../2.png" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pose_graph" TARGET_NAME="triangulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pose_graph" RUN_TARGET_NAME="triangulation">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -130,11 +131,12 @@
     <list>
       <item itemvalue="CMake Application.imageBasics" />
       <item itemvalue="CMake Application.orb_cv" />
-      <item itemvalue="CMake Application.orb_self" />
       <item itemvalue="CMake Application.pose_estimation_2d2d" />
       <item itemvalue="CMake Application.pose_estimation_3d2d" />
       <item itemvalue="CMake Application.pose_estimation_3d3d" />
       <item itemvalue="CMake Application.triangulation" />
+      <item itemvalue="CMake Application.pose_graph_g2o_lie" />
+      <item itemvalue="CMake Application.pose_graph_g2o_SE3" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -169,7 +171,11 @@
       <workItem from="1640831012741" duration="9598000" />
       <workItem from="1640866417372" duration="3850000" />
       <workItem from="1640916119079" duration="8009000" />
-      <workItem from="1641119387503" duration="1062000" />
+      <workItem from="1641119387503" duration="21181000" />
+      <workItem from="1641633344463" duration="16400000" />
+      <workItem from="1641893790768" duration="6711000" />
+      <workItem from="1642384998323" duration="7530000" />
+      <workItem from="1642401206769" duration="976000" />
     </task>
     <servers />
   </component>
@@ -189,69 +195,96 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="458" y="290" width="835" height="470" key="#Notifications" timestamp="1637285946201">
+    <state x="458" y="290" width="835" height="470" key="#Notifications" timestamp="1641560614638">
       <screen x="74" y="30" width="1606" height="1020" />
     </state>
-    <state x="458" y="290" width="835" height="470" key="#Notifications/74.30.1606.1020@74.30.1606.1020" timestamp="1637285946201" />
-    <state x="74" y="156" width="1483" height="756" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1641116941489">
-      <screen x="74" y="30" width="1606" height="1020" />
+    <state x="458" y="290" width="835" height="470" key="#Notifications/74.30.1606.1020@74.30.1606.1020" timestamp="1641560614638" />
+    <state x="145" y="202" width="1483" height="756" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642400181466">
+      <screen x="74" y="30" width="2080" height="1157" />
     </state>
     <state x="74" y="156" width="1483" height="756" key="#com.intellij.execution.impl.EditConfigurationsDialog/74.30.1606.1020@74.30.1606.1020" timestamp="1641116941489" />
     <state x="435" y="146" width="1483" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/74.30.1844.906@74.30.1844.906" timestamp="1638792440800" />
+    <state x="145" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/74.30.2080.1157@74.30.2080.1157" timestamp="1642400181466" />
     <state x="541" y="363" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1637242519331">
       <screen x="96" y="30" width="1584" height="1020" />
     </state>
     <state x="541" y="363" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/96.30.1584.1020@96.30.1584.1020" timestamp="1637242519331" />
-    <state x="755" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1640858573408">
-      <screen x="74" y="30" width="1606" height="1020" />
+    <state x="956" y="243" width="589" height="773" key="#com.intellij.ide.util.MemberChooser" timestamp="1642391023631">
+      <screen x="74" y="30" width="2080" height="1157" />
     </state>
     <state x="755" y="218" key="#com.intellij.ide.util.MemberChooser/74.30.1606.1020@74.30.1606.1020" timestamp="1640858573408" />
+    <state x="956" y="243" width="589" height="773" key="#com.intellij.ide.util.MemberChooser/74.30.2080.1157@74.30.2080.1157" timestamp="1642391023631" />
     <state x="511" y="184" key="FileChooserDialogImpl" timestamp="1638246555747">
       <screen x="74" y="30" width="1844" height="906" />
     </state>
     <state x="455" y="203" key="FileChooserDialogImpl/74.30.1606.1020@74.30.1606.1020" timestamp="1637565795057" />
     <state x="511" y="184" key="FileChooserDialogImpl/74.30.1844.906@74.30.1844.906" timestamp="1638246555747" />
     <state x="472" y="203" key="FileChooserDialogImpl/96.30.1584.1020@96.30.1584.1020" timestamp="1637242515967" />
-    <state width="1542" height="416" key="GridCell.Tab.0.bottom" timestamp="1641119515474">
-      <screen x="74" y="30" width="1606" height="1020" />
+    <state width="2016" height="530" key="GridCell.Tab.0.bottom" timestamp="1642402102707">
+      <screen x="74" y="30" width="2080" height="1157" />
     </state>
-    <state width="1542" height="416" key="GridCell.Tab.0.bottom/74.30.1606.1020@74.30.1606.1020" timestamp="1641119515474" />
+    <state width="1542" height="320" key="GridCell.Tab.0.bottom/74.30.1606.1020@74.30.1606.1020" timestamp="1641570025284" />
+    <state width="1776" height="27" key="GridCell.Tab.0.bottom/74.30.1840.902@74.30.1840.902" timestamp="1641714236462" />
     <state width="1780" height="154" key="GridCell.Tab.0.bottom/74.30.1844.906@74.30.1844.906" timestamp="1638848103090" />
-    <state width="1542" height="416" key="GridCell.Tab.0.center" timestamp="1641119515446">
-      <screen x="74" y="30" width="1606" height="1020" />
+    <state width="1782" height="227" key="GridCell.Tab.0.bottom/74.30.1846.1050@74.30.1846.1050" timestamp="1641571284401" />
+    <state width="2016" height="530" key="GridCell.Tab.0.bottom/74.30.2080.1157@74.30.2080.1157" timestamp="1642402102707" />
+    <state width="2016" height="530" key="GridCell.Tab.0.center" timestamp="1642402102705">
+      <screen x="74" y="30" width="2080" height="1157" />
     </state>
-    <state width="1542" height="416" key="GridCell.Tab.0.center/74.30.1606.1020@74.30.1606.1020" timestamp="1641119515446" />
+    <state width="1542" height="320" key="GridCell.Tab.0.center/74.30.1606.1020@74.30.1606.1020" timestamp="1641570025278" />
+    <state width="1776" height="27" key="GridCell.Tab.0.center/74.30.1840.902@74.30.1840.902" timestamp="1641714236459" />
     <state width="1780" height="154" key="GridCell.Tab.0.center/74.30.1844.906@74.30.1844.906" timestamp="1638848103088" />
-    <state width="1542" height="416" key="GridCell.Tab.0.left" timestamp="1641119515435">
-      <screen x="74" y="30" width="1606" height="1020" />
+    <state width="1782" height="227" key="GridCell.Tab.0.center/74.30.1846.1050@74.30.1846.1050" timestamp="1641571284398" />
+    <state width="2016" height="530" key="GridCell.Tab.0.center/74.30.2080.1157@74.30.2080.1157" timestamp="1642402102705" />
+    <state width="2016" height="530" key="GridCell.Tab.0.left" timestamp="1642402102702">
+      <screen x="74" y="30" width="2080" height="1157" />
     </state>
-    <state width="1542" height="416" key="GridCell.Tab.0.left/74.30.1606.1020@74.30.1606.1020" timestamp="1641119515435" />
+    <state width="1542" height="320" key="GridCell.Tab.0.left/74.30.1606.1020@74.30.1606.1020" timestamp="1641570025276" />
+    <state width="1776" height="27" key="GridCell.Tab.0.left/74.30.1840.902@74.30.1840.902" timestamp="1641714236457" />
     <state width="1780" height="154" key="GridCell.Tab.0.left/74.30.1844.906@74.30.1844.906" timestamp="1638848103087" />
-    <state width="1542" height="416" key="GridCell.Tab.0.right" timestamp="1641119515471">
-      <screen x="74" y="30" width="1606" height="1020" />
+    <state width="1782" height="227" key="GridCell.Tab.0.left/74.30.1846.1050@74.30.1846.1050" timestamp="1641571284397" />
+    <state width="2016" height="530" key="GridCell.Tab.0.left/74.30.2080.1157@74.30.2080.1157" timestamp="1642402102702" />
+    <state width="2016" height="530" key="GridCell.Tab.0.right" timestamp="1642402102706">
+      <screen x="74" y="30" width="2080" height="1157" />
     </state>
-    <state width="1542" height="416" key="GridCell.Tab.0.right/74.30.1606.1020@74.30.1606.1020" timestamp="1641119515471" />
+    <state width="1542" height="320" key="GridCell.Tab.0.right/74.30.1606.1020@74.30.1606.1020" timestamp="1641570025281" />
+    <state width="1776" height="27" key="GridCell.Tab.0.right/74.30.1840.902@74.30.1840.902" timestamp="1641714236461" />
     <state width="1780" height="154" key="GridCell.Tab.0.right/74.30.1844.906@74.30.1844.906" timestamp="1638848103090" />
-    <state width="1780" height="276" key="GridCell.Tab.1.bottom" timestamp="1638267978422">
-      <screen x="74" y="30" width="1844" height="906" />
+    <state width="1782" height="227" key="GridCell.Tab.0.right/74.30.1846.1050@74.30.1846.1050" timestamp="1641571284399" />
+    <state width="2016" height="530" key="GridCell.Tab.0.right/74.30.2080.1157@74.30.2080.1157" timestamp="1642402102706" />
+    <state width="1776" height="164" key="GridCell.Tab.1.bottom" timestamp="1641699325586">
+      <screen x="74" y="30" width="1840" height="902" />
     </state>
+    <state width="1542" height="320" key="GridCell.Tab.1.bottom/74.30.1606.1020@74.30.1606.1020" timestamp="1641570027624" />
+    <state width="1776" height="164" key="GridCell.Tab.1.bottom/74.30.1840.902@74.30.1840.902" timestamp="1641699325586" />
     <state width="1780" height="276" key="GridCell.Tab.1.bottom/74.30.1844.906@74.30.1844.906" timestamp="1638267978422" />
-    <state width="1780" height="276" key="GridCell.Tab.1.center" timestamp="1638267978421">
-      <screen x="74" y="30" width="1844" height="906" />
+    <state width="1782" height="227" key="GridCell.Tab.1.bottom/74.30.1846.1050@74.30.1846.1050" timestamp="1641571285549" />
+    <state width="1776" height="164" key="GridCell.Tab.1.center" timestamp="1641699325581">
+      <screen x="74" y="30" width="1840" height="902" />
     </state>
+    <state width="1542" height="320" key="GridCell.Tab.1.center/74.30.1606.1020@74.30.1606.1020" timestamp="1641570027623" />
+    <state width="1776" height="164" key="GridCell.Tab.1.center/74.30.1840.902@74.30.1840.902" timestamp="1641699325581" />
     <state width="1780" height="276" key="GridCell.Tab.1.center/74.30.1844.906@74.30.1844.906" timestamp="1638267978421" />
-    <state width="1780" height="276" key="GridCell.Tab.1.left" timestamp="1638267978420">
-      <screen x="74" y="30" width="1844" height="906" />
+    <state width="1782" height="227" key="GridCell.Tab.1.center/74.30.1846.1050@74.30.1846.1050" timestamp="1641571285546" />
+    <state width="1776" height="164" key="GridCell.Tab.1.left" timestamp="1641699325579">
+      <screen x="74" y="30" width="1840" height="902" />
     </state>
+    <state width="1542" height="320" key="GridCell.Tab.1.left/74.30.1606.1020@74.30.1606.1020" timestamp="1641570027623" />
+    <state width="1776" height="164" key="GridCell.Tab.1.left/74.30.1840.902@74.30.1840.902" timestamp="1641699325579" />
     <state width="1780" height="276" key="GridCell.Tab.1.left/74.30.1844.906@74.30.1844.906" timestamp="1638267978420" />
-    <state width="1780" height="276" key="GridCell.Tab.1.right" timestamp="1638267978422">
-      <screen x="74" y="30" width="1844" height="906" />
+    <state width="1782" height="227" key="GridCell.Tab.1.left/74.30.1846.1050@74.30.1846.1050" timestamp="1641571285544" />
+    <state width="1776" height="164" key="GridCell.Tab.1.right" timestamp="1641699325584">
+      <screen x="74" y="30" width="1840" height="902" />
     </state>
+    <state width="1542" height="320" key="GridCell.Tab.1.right/74.30.1606.1020@74.30.1606.1020" timestamp="1641570027624" />
+    <state width="1776" height="164" key="GridCell.Tab.1.right/74.30.1840.902@74.30.1840.902" timestamp="1641699325584" />
     <state width="1780" height="276" key="GridCell.Tab.1.right/74.30.1844.906@74.30.1844.906" timestamp="1638267978422" />
-    <state x="284" y="67" key="SettingsEditor" timestamp="1641117057140">
-      <screen x="74" y="30" width="1606" height="1020" />
+    <state width="1782" height="227" key="GridCell.Tab.1.right/74.30.1846.1050@74.30.1846.1050" timestamp="1641571285547" />
+    <state x="315" y="30" key="SettingsEditor" timestamp="1641608310136">
+      <screen x="74" y="30" width="1840" height="902" />
     </state>
     <state x="284" y="67" key="SettingsEditor/74.30.1606.1020@74.30.1606.1020" timestamp="1641117057140" />
+    <state x="315" y="30" key="SettingsEditor/74.30.1840.902@74.30.1840.902" timestamp="1641608310136" />
     <state x="457" y="233" key="run.anything.popup" timestamp="1641540987686">
       <screen x="74" y="30" width="1606" height="1020" />
     </state>
